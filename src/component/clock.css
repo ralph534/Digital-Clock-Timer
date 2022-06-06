@@ -1,0 +1,23 @@
+.clock {
+    position: relative;
+    color: #06f1f6;
+    margin: auto;
+    background: linear-gradient(270deg, #051817, #0e3839);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 350px;
+    text-shadow: 1px 1px 7px;
+    border-radius: 15px;
+    border: 2px solid silver;
+    box-shadow: 0 0 5px 25px;
+
+}
+
+
+.clock > p {
+    font-size: 4rem;
+    padding: 20px;
+    word-spacing: 0.3rem;
+}
